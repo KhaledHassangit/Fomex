@@ -6,6 +6,7 @@ import Partners from "./components/Partners/Partners";
 import Statics from "./components/Statics/Statics";
 import Welcome from "./components/Welcome/Welcome";
 import Home from "./Pages/Home/Home";
+import Footer from "./utilities/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <BookSeat/>
       <News/>
       <Partners/>
+      <Footer/>
     </div>
   );
 }
