@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Alexandria", sans-serif;
+  overflow-x: hidden;
+}
+
+
+.home {
+  background: 
+    linear-gradient(0.55deg, rgba(7, 48, 43, 0.184) 0.5%, rgba(6, 40, 35, 0.736) 35.31%, rgba(5, 36, 32, 0.736) 99.55%),
+    url("./assets/background1.png");
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
+
+
+/* Header Style */
+
+header{
+  width: 100%;
+  height: 80px !important;
+  padding: 16px 80px;
+}
+header .login-btn{
+  background: linear-gradient(84.42deg, #104540 -10.2%, #1A735D 46.02%, #27AB9E 102.04%);
+  border: none;
+  border-radius: 12px;
+  padding: 10px 16px;
+  color: white;
+  white-space: nowrap;
+
+}
+header .local{
+  background-color: transparent;
+  border: none;
+
+}
+header .local:hover{
+  background-color: transparent;
+
+}
+header .navbar-logo{
+  width: 400px;
+  height: 45px;
+}
+
+
+header .menu-icon{
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 16px;
+  padding: 8px;
+  display: flex;
+  align-content: center;
+  color: white;
+}
+
+
+/* Ladning Page */
+.landing{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin-top: 150px;
+  color: white;
+  font-family: "Alexandria", sans-serif;
+}
+
+.landing h6{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+}
+.landing h5 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: white; 
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px; 
+}
+
+.landing h2{
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 60px;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.landing .date p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+  button.book{
+  background: linear-gradient(87.55deg, #104540 -20.07%, #1A735D 44.58%, #27AB9E 104.13%);
+  padding: 12px 18px;
+  border-radius: 14px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* statics */
+
+.statics{
+  background: linear-gradient(0deg, rgba(8, 60, 55, 0.93), rgba(8, 60, 55, 0.93)),
+  linear-gradient(165.75deg, rgba(255, 255, 255, 0.2) 2.16%, rgba(255, 255, 255, 0) 49.14%, rgba(255, 255, 255, 0.2) 90.9%),
+  url("./assets/background2.png");
+  ;
+  width: 100%;
+  height: 200px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Alexandria", sans-serif;
+  }
+
+.statics h1 span{
+  color: #27AB9E;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 56px;
+}
+.statics span{
+  color: white;
+  font-size: 400;
+  font-size: 20px;
+  line-height: 32px;
+
+  }
+
+/* Welcome Section */
+.welcome{
+  width: 100%;
+  padding: 40px;
+}
+.welcome img {
+  border-radius: 0px 32px 0px 32px; 
+  height: 550px; 
+}
+
+.holder {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #1045405E;
+  z-index: 1; 
+  border-radius: 0px 32px 0px 32px;
+  width: 100%;
+  height: 100%;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  color: white !important;
+  border-radius: 50%; 
+  padding: 18px;
+  width: 70px; 
+  height: 70px; 
+  cursor: pointer;
+  z-index: 2;
+}
+.play-button svg {
+  font-size: 25px;
+
+}
+.play-button:hover svg {
+  transform: scale(.9);
+}
+
+.welcome .text{
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: start;
+  justify-content: start;
+  font-family: "Alexandria", sans-serif;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+
+.welcome .text h1{
+  font-size: 44px;
+  line-height: 70px;
+  color: #000000;
+  font-weight: 900;
+}
+.welcome .text p{
+  font-size: 22px;
+  line-height: 35px;
+  color: #798785;
+  font-weight: 400;
+  text-align: right;
+  width: 70%;
+  letter-spacing: 1px;
+}
